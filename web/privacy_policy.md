@@ -12,7 +12,7 @@ Please read this Privacy Policy carefully and ensure that you understand it. You
 
 Our App is provided by Binoculai, a company dedicated to providing this Google Workspace Gmail Addon. For all correspondence, you may contact us through email at support@binoculai.top .
 
-## Scope – What Does This Policy Cover?
+## Scope - What Does This Policy Cover?
 
 This Privacy Policy applies to your use of Our App and our website binoculai.top . It does not extend to any websites that are linked to from Our App or our website (including data we share with third-party applications). We have no control over how your data is collected, stored, or used by other websites and we advise you to check the privacy policies of any such websites before providing any data to them.
 
