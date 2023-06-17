@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: tool
 title: Binoculai
 ---
 Binoculai is dedicated to enhancing your Gmail experience. Explore our tools:

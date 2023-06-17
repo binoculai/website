@@ -53,12 +53,13 @@
         }
 
         .content-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             width: 100%;
         }
 
-        .app-info {
-            padding-bottom: 20px;
-        }
 
     </style>
 </head>
@@ -69,31 +70,6 @@
         <img src="binocular.svg" alt="{{ page.title }} Logo" class="logo">
     </div>
     {{ content }}
-</div>
-<div class="app-info">
-    <h2>Welcome to Binoculai</h2>
-    <p>
-        Here's what you need to know about our Mail Search AI Google Workspace Addon and Google Chat app:
-    </p>
-    <h3>What we do with your data</h3>
-    <p>
-        Our apps access your Gmail data, process your email content and metadata, and create semantic embeddings. These
-        embeddings are used to provide semantic search functionality across your Gmail. We save Gmail message IDs to
-        fetch the content of your top search results when you conduct a search. We also collect usage information to
-        understand usage patterns, manage subscriptions, and improve our services. Your data is never shared with any
-        third-party services except for the OpenAI API.
-    </p>
-    <h3>Enhancing user functionality</h3>
-    <p>
-        Our apps significantly improve your Gmail experience by providing a robust semantic search functionality. You
-        can conduct searches through our Gmail Addon or Google Chat app, and our system will fetch the most relevant
-        results from your emails. We utilize the OpenAI API to process these results and deliver them to you in a
-        natural language response.
-    </p>
-    <p>
-        By using our apps, you are giving your explicit consent for us to use and share your data as described. If you
-        have any questions, feel free to contact us at support@binoculai.top.
-    </p>
 </div>
 <div class="footer">
     <a href="privacy_policy.html">Privacy Policy</a> |
