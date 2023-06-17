@@ -11,10 +11,10 @@
             font-family: Arial, sans-serif;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            justify-content: space-between;
             min-height: 100vh;
             margin: 0;
-            padding: 0;
+            padding-top: 20px;
             text-align: center;
         }
 
@@ -37,7 +37,7 @@
         }
 
         .footer {
-            bottom: 10px;
+            padding-bottom: 20px;
             width: 100%;
             text-align: center;
         }
@@ -50,14 +50,21 @@
             margin: 0;
             padding: 0;
         }
+
+        .content-container {
+            width: 100%;
+        }
+
     </style>
 </head>
 <body>
-<h1>{{ page.title }}</h1>
-<div class="logo-container">
-    <img src="binocular.svg" alt="{{ page.title }} Logo" class="logo">
+<div class="content-container">
+    <h1>{{ page.title }}</h1>
+    <div class="logo-container">
+        <img src="binocular.svg" alt="{{ page.title }} Logo" class="logo">
+    </div>
+    {{ content }}
 </div>
-{{ content }}
 <div class="footer">
     <a href="privacy_policy.html">Privacy Policy</a> |
     <a href="terms.html">Terms of Service</a>
@@ -67,4 +74,3 @@
 </div>
 </body>
 </html>
-
